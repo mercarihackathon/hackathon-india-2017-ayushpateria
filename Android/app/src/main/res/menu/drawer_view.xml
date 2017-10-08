@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_find"
+            android:icon="@drawable/ic_car"
+            android:title="@string/navigation_find" />
+        <item
+            android:id="@+id/nav_credits"
+            android:icon="@drawable/ic_cash"
+            android:title="@string/navigation_credits" />
+        <item
+            android:id="@+id/nav_bookings"
+            android:icon="@drawable/ic_discuss"
+            android:title="@string/navigation_bookings" />
+        <item
+            android:id="@+id/nav_reg"
+            android:icon="@drawable/ic_dashboard"
+            android:title="@string/navigation_register" />
+    </group>
+
+</menu>

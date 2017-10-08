@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/restcv_root"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="#FFFFFF"
+        android:orientation="vertical"
+        app:cardCornerRadius="3dp"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:orientation="horizontal">
+
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.4">
+
+                <ImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/p1" />
+            </FrameLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.6">
+
+                <TextView
+                    android:id="@+id/spot_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Gachibowli"
+                    android:textColor="#df000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/spot_addr"
+                    android:layout_height="50dp"
+                    android:layout_alignLeft="@+id/spot_title"
+                    android:layout_alignStart="@+id/spot_title"
+                    android:layout_below="@+id/spot_title"
+                    android:layout_marginTop="5dp"
+                    android:text="Sahara city road, 9 Project St, Mumbai, India"
+                    android:textColor="#8a000000"
+                    android:textSize="12sp"
+                    android:layout_width="200dp" />
+
+                <TextView
+                    android:id="@+id/spot_cost"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/spot_addr"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignStart="@+id/spot_addr"
+                    android:layout_marginBottom="16dp"
+                    android:lineSpacingExtra="20sp"
+                    android:lineSpacingMultiplier="1.7"
+                    android:paddingBottom="1dp"
+                    android:paddingLeft="6dp"
+                    android:paddingRight="12dp"
+                    android:paddingTop="1dp"
+                    android:text="Rs. 50"
+                    android:textSize="12sp" />
+
+
+
+                <TextView
+                    android:id="@+id/spot_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginRight="16dp"
+                    android:text="1 Km"
+                    android:textColor="#8a000000"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

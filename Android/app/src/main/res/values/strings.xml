@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SmartPark</string>
+    <string name="settings">Settings</string>
+    <string name="article_detail_more_info">More Info</string>
+
+
+    <string name="reg_title">Hello Ayush!</string>
+    <string name="reg_subhead">Please give us the details of your parking space and we will take care of the rest.</string>
+    <string name="reg_hint_username">Owner</string>
+    <string name="reg_hint_title">Title of Parking Spot</string>
+    <string name="reg_hint_cost">Cost per hour</string>
+
+    <string name="navigation_title">SmartPark</string>
+    <string name="navigation_find">Find Parking</string>
+    <string name="navigation_credits">Credits</string>
+    <string name="navigation_bookings">Bookings</string>
+    <string name="navigation_register">Add your Parking</string>
+</resources>
